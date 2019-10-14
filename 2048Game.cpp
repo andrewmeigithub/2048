@@ -2,7 +2,6 @@
 #include <string>
 #include <ctime> 
 #include <windows.h>
-#include <allegro.h>
 
 using std::cout;
 
@@ -44,20 +43,20 @@ void draw(){
 }
 
 void up() {
-    cout << "W pressed";
+    cout << "W pressed \n";
     keyPressed = false;
 }
 
 void left() {
-    cout << "A pressed";
+    cout << "A pressed \n";
 }
 
 void down() {
-    cout << "S pressed";
+    cout << "S pressed \n";
 }
 
 void right() {
-    cout << "D pressed";
+    cout << "D pressed \n";
 }
 
 void logic() {
